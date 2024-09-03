@@ -1,0 +1,14 @@
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Start the application with the login screen
+        login();
+        // create(); // Uncomment if you want to reset the database during development
+    }
+
+    public static void login() {
+        Login login = new Login();
+        login.showLoginScreen();
+    }
+}
